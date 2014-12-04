@@ -18,11 +18,15 @@
 		AF4B7DFC1A2B84AE00E1479D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4B7DFB1A2B84AE00E1479D /* Default-568h@2x.png */; };
 		AF4B7DFF1A2B84AE00E1479D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4B7DFD1A2B84AE00E1479D /* MainStoryboard.storyboard */; };
 		AF4B7E021A2B84AE00E1479D /* FWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4B7E011A2B84AE00E1479D /* FWSViewController.m */; };
-		AF4B7E0A1A2B84AE00E1479D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4B7E091A2B84AE00E1479D /* SenTestingKit.framework */; };
 		AF4B7E0B1A2B84AE00E1479D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4B7DE51A2B84AE00E1479D /* UIKit.framework */; };
 		AF4B7E0C1A2B84AE00E1479D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4B7DE71A2B84AE00E1479D /* Foundation.framework */; };
 		AF4B7E141A2B84AE00E1479D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4B7E121A2B84AE00E1479D /* InfoPlist.strings */; };
 		AF4B7E171A2B84AE00E1479D /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4B7E161A2B84AE00E1479D /* MatchismoTests.m */; };
+		AF4B7E221A2B860100E1479D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4B7E211A2B860100E1479D /* Card.m */; };
+		AFB912411A2D4F8400886771 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB912401A2D4F8400886771 /* Deck.m */; };
+		AFB912441A2D6A7300886771 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB912431A2D6A7300886771 /* PlayingCard.m */; };
+		AFB912471A2E1FA400886771 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB912461A2E1FA400886771 /* PlayingCardDeck.m */; };
+		AFB912491A2FCAAC00886771 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB912481A2FCAAC00886771 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +57,19 @@
 		AF4B7E001A2B84AE00E1479D /* FWSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWSViewController.h; sourceTree = "<group>"; };
 		AF4B7E011A2B84AE00E1479D /* FWSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWSViewController.m; sourceTree = "<group>"; };
 		AF4B7E081A2B84AE00E1479D /* MatchismoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF4B7E091A2B84AE00E1479D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AF4B7E111A2B84AE00E1479D /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		AF4B7E131A2B84AE00E1479D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF4B7E151A2B84AE00E1479D /* MatchismoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchismoTests.h; sourceTree = "<group>"; };
 		AF4B7E161A2B84AE00E1479D /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		AF4B7E201A2B860100E1479D /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		AF4B7E211A2B860100E1479D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		AFB9123F1A2D4F8400886771 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		AFB912401A2D4F8400886771 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		AFB912421A2D6A7300886771 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCard.h; path = Model/PlayingCard.h; sourceTree = "<group>"; };
+		AFB912431A2D6A7300886771 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
+		AFB912451A2E1FA400886771 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
+		AFB912461A2E1FA400886771 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		AFB912481A2FCAAC00886771 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4B7E0A1A2B84AE00E1479D /* SenTestingKit.framework in Frameworks */,
 				AF4B7E0B1A2B84AE00E1479D /* UIKit.framework in Frameworks */,
 				AF4B7E0C1A2B84AE00E1479D /* Foundation.framework in Frameworks */,
 			);
@@ -109,7 +120,6 @@
 				AF4B7DE51A2B84AE00E1479D /* UIKit.framework */,
 				AF4B7DE71A2B84AE00E1479D /* Foundation.framework */,
 				AF4B7DE91A2B84AE00E1479D /* CoreGraphics.framework */,
-				AF4B7E091A2B84AE00E1479D /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,11 +127,11 @@
 		AF4B7DEB1A2B84AE00E1479D /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				AF4B7DF41A2B84AE00E1479D /* FWSAppDelegate.h */,
-				AF4B7DF51A2B84AE00E1479D /* FWSAppDelegate.m */,
 				AF4B7DFD1A2B84AE00E1479D /* MainStoryboard.storyboard */,
 				AF4B7E001A2B84AE00E1479D /* FWSViewController.h */,
 				AF4B7E011A2B84AE00E1479D /* FWSViewController.m */,
+				AFB912481A2FCAAC00886771 /* Images.xcassets */,
+				AFB9124A1A3034B000886771 /* Model */,
 				AF4B7DEC1A2B84AE00E1479D /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -130,6 +140,8 @@
 		AF4B7DEC1A2B84AE00E1479D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF4B7DF41A2B84AE00E1479D /* FWSAppDelegate.h */,
+				AF4B7DF51A2B84AE00E1479D /* FWSAppDelegate.m */,
 				AF4B7DED1A2B84AE00E1479D /* Matchismo-Info.plist */,
 				AF4B7DEE1A2B84AE00E1479D /* InfoPlist.strings */,
 				AF4B7DF11A2B84AE00E1479D /* main.m */,
@@ -158,6 +170,21 @@
 				AF4B7E121A2B84AE00E1479D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB9124A1A3034B000886771 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B7E201A2B860100E1479D /* Card.h */,
+				AF4B7E211A2B860100E1479D /* Card.m */,
+				AFB9123F1A2D4F8400886771 /* Deck.h */,
+				AFB912401A2D4F8400886771 /* Deck.m */,
+				AFB912421A2D6A7300886771 /* PlayingCard.h */,
+				AFB912431A2D6A7300886771 /* PlayingCard.m */,
+				AFB912451A2E1FA400886771 /* PlayingCardDeck.h */,
+				AFB912461A2E1FA400886771 /* PlayingCardDeck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +224,7 @@
 			name = MatchismoTests;
 			productName = MatchismoTests;
 			productReference = AF4B7E081A2B84AE00E1479D /* MatchismoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,6 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FWS;
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Framework Solutions, LLC";
 			};
@@ -235,6 +263,7 @@
 				AF4B7DF01A2B84AE00E1479D /* InfoPlist.strings in Resources */,
 				AF4B7DF81A2B84AE00E1479D /* Default.png in Resources */,
 				AF4B7DFA1A2B84AE00E1479D /* Default@2x.png in Resources */,
+				AFB912491A2FCAAC00886771 /* Images.xcassets in Resources */,
 				AF4B7DFC1A2B84AE00E1479D /* Default-568h@2x.png in Resources */,
 				AF4B7DFF1A2B84AE00E1479D /* MainStoryboard.storyboard in Resources */,
 			);
@@ -271,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB912441A2D6A7300886771 /* PlayingCard.m in Sources */,
+				AFB912411A2D4F8400886771 /* Deck.m in Sources */,
 				AF4B7DF21A2B84AE00E1479D /* main.m in Sources */,
 				AF4B7DF61A2B84AE00E1479D /* FWSAppDelegate.m in Sources */,
+				AFB912471A2E1FA400886771 /* PlayingCardDeck.m in Sources */,
 				AF4B7E021A2B84AE00E1479D /* FWSViewController.m in Sources */,
+				AF4B7E221A2B860100E1479D /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,13 +441,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "MatchismoTests/MatchismoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -425,13 +458,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Matchismo/Matchismo-Prefix.pch";
 				INFOPLIST_FILE = "MatchismoTests/MatchismoTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -454,6 +487,7 @@
 				AF4B7E1C1A2B84AE00E1479D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF4B7E1D1A2B84AE00E1479D /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +496,7 @@
 				AF4B7E1F1A2B84AE00E1479D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

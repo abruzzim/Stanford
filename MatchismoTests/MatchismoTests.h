@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Framework Solutions, LLC. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface MatchismoTests : SenTestCase
+@interface MatchismoTests : XCTestCase
 
 @end
