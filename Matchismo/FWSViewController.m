@@ -66,9 +66,9 @@
         
         // Draw a random card.
         
-        Card *randomCard = [self.myDeck drawRandomCard];
+        Card *card = [self.myDeck drawRandomCard];
         
-        if (randomCard) {
+        if (card) {
             
             // The sender (button) will send a message to
             // set the background image to the cardfront and
@@ -76,7 +76,7 @@
             
             [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
                               forState:UIControlStateNormal];
-            [sender setTitle:randomCard.contents
+            [sender setTitle:card.contents
                     forState:UIControlStateNormal];
             
             // This invokes both the "getter" and "setter"
