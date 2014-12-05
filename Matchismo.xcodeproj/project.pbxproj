@@ -56,7 +56,7 @@
 		AF4B7DFE1A2B84AE00E1479D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AF4B7E001A2B84AE00E1479D /* FWSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWSViewController.h; sourceTree = "<group>"; };
 		AF4B7E011A2B84AE00E1479D /* FWSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWSViewController.m; sourceTree = "<group>"; };
-		AF4B7E081A2B84AE00E1479D /* MatchismoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4B7E081A2B84AE00E1479D /* MatchismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4B7E111A2B84AE00E1479D /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		AF4B7E131A2B84AE00E1479D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF4B7E151A2B84AE00E1479D /* MatchismoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchismoTests.h; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				AF4B7DE21A2B84AE00E1479D /* Matchismo.app */,
-				AF4B7E081A2B84AE00E1479D /* MatchismoTests.octest */,
+				AF4B7E081A2B84AE00E1479D /* MatchismoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 			);
 			name = MatchismoTests;
 			productName = MatchismoTests;
-			productReference = AF4B7E081A2B84AE00E1479D /* MatchismoTests.octest */;
+			productReference = AF4B7E081A2B84AE00E1479D /* MatchismoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

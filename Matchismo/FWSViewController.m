@@ -7,6 +7,7 @@
 //
 
 #import "FWSViewController.h"
+#import "PlayingCardDeck.h"
 
 @interface FWSViewController ()
 
@@ -16,11 +17,25 @@
 // Private storage within which to keep each card array pointer.
 // Make space in the instance for the pointer "cards".
 
-@property (nonatomic) NSMutableArray *cards; // Collection of cards.
+@property (strong, nonatomic) Deck *myDeck; // Collection of playing cards.
 
 @end
 
 @implementation FWSViewController
+
+- (Deck *)myDeck
+{
+    // Lazy Instantiate the myDeck array. In other words,
+    // move the initialization code of the instance variable
+    // into the accessor method of the property. This way the
+    // instance variable is instantiated when it is first used.
+    
+    if (!_myDeck) {
+        _myDeck = [[PlayingCardDeck alloc] init];
+    }
+    
+    return _myDeck;
+}
 
 - (void)setFlipCount:(int)flipCount
 {
@@ -49,20 +64,27 @@
         
         // Display the front of the card.
         
-        // The sender (button) will send a message to
-        // set the background image to the cardfront and
-        // set the button title to the NSString A♣️"
+        // Draw a random card.
         
-        [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
-                          forState:UIControlStateNormal];
-        [sender setTitle:@"A♣️" forState:UIControlStateNormal];
+        Card *randomCard = [self.myDeck drawRandomCard];
         
+        if (randomCard) {
+            
+            // The sender (button) will send a message to
+            // set the background image to the cardfront and
+            // set the button title to the content of the randomCard.
+            
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
+                              forState:UIControlStateNormal];
+            [sender setTitle:randomCard.contents
+                    forState:UIControlStateNormal];
+            
+            // This invokes both the "getter" and "setter"
+            // methods of this view controller.
+
+            self.flipCount++;
+        }
     }
-    
-    // This invokes bother the "getter" and "setter"
-    // methods of this view controller.
-    
-    self.flipCount++;
 }
 
 @end

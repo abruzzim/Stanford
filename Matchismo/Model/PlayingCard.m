@@ -21,7 +21,7 @@
 
 /*
  
- // The compiler automatically generates the "setter" and "getter" code
+ // This is the automatically generated compiler "setter" and "getter" code
  // as a result of the @property declaration in the header file.
  
  @synthesize suit = _suit; // Create backing store instance variable.

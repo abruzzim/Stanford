@@ -37,7 +37,7 @@
 
 /*
  
- // Here is the automatically generated compiler code as a result of
+ // Here is the compiler generated code as a result of
  // the "chosen" and "matched" @property declarations.
  
 @synthesize chosen = _chosen;
@@ -47,6 +47,7 @@
 {
     return _chosen;
 }
+ 
 - (void)setChosen:(BOOL)chosen
 {
     _chosen = chosen;
@@ -56,6 +57,7 @@
 {
     return _matched;
 }
+ 
 - (void)setMatched:(BOOL)matched
 {
     _matched = matched;

@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF4B7E071A2B84AE00E1479D"
-               BuildableName = "MatchismoTests.octest"
+               BuildableName = "MatchismoTests.xctest"
                BlueprintName = "MatchismoTests"
                ReferencedContainer = "container:Matchismo.xcodeproj">
             </BuildableReference>

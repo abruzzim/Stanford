@@ -26,7 +26,10 @@
 - (NSMutableArray *)cards
 {
     // If the cards pointer is nil then alloc and init or
-    // "Lazy Instantiate" the array.
+    // "Lazy Instantiate" the array. In other words, move
+    // the initialization code of the instance variable into
+    // the accessor method of the property so that it is
+    // instantiated when it is first used.
     
     if (!_cards) {
         _cards = [[NSMutableArray alloc] init];
